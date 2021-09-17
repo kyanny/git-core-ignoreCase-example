@@ -16,7 +16,7 @@ If it fails, add `-f` option.
 git mv -f A.txt a.txt
 ```
 
-For renaming file, `git mv`'s behavior slightly changes by `core.ignoreCase` option setting. To learn more, check the output of *ignoreCase-true-rename-file.sh* script and *ignoreCase-false-rename-file.sh* script below.
+For renaming file, `git mv`'s behavior slightly changes by [`core.ignoreCase`](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreignoreCase) option setting. To learn more, check the output of [*ignoreCase-false-rename-file.sh*](https://github.com/kyanny/git-core-ignoreCase-example#ignorecase-false-rename-filesh) script and [*ignoreCase-true-rename-file.sh*](https://github.com/kyanny/git-core-ignoreCase-example#ignorecase-true-rename-filesh) script below.
 
 - To rename directory in a case-sensitive manner, do `git mv` twice.
 
